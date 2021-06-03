@@ -13,9 +13,6 @@ stages:
     batch:
       max_completion_time_seconds: 60
       retries: 4
-    secrets:
-      FOO: foobar-secret
-      BAR: foobar-secret
     requirements:
       - numpy==1.19.1
   on_fail_stage:
